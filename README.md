@@ -10,15 +10,15 @@
 
 ## Resources
 * [express docs](http://expressjs.com/en/4x/api.html)
-* [mongoosse guide](http://mongoosejs.com/docs/guide.html)
-* [mongoosse api docs](http://mongoosejs.com/docs/api.html)
+* [mongoose guide](http://mongoosejs.com/docs/guide.html)
+* [mongoose api docs](http://mongoosejs.com/docs/api.html)
 
 ## Configuration 
 Configure the root of your repository with the following files and directories. Thoughtfully name and organize any additional configuration or module files.
 * **README.md** - contains documentation
 * **.env** - contains env variables **(should be git ignored)**
 * **.gitignore** - contains a [robust](http://gitignore.io) `.gitignore` file 
-* **.eslintrc** - contains the course linter configuration
+* **.eslintrc.json** - contains the course linter configuration
 * **.eslintignore** - contains the course linter ignore configuration
 * **package.json** - contains npm package config
   * create a `lint` script for running eslint
