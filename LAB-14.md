@@ -7,12 +7,12 @@
 
 ## Resources
 * [express docs](http://expressjs.com/en/4x/api.html)
-* [mongoosse guide](http://mongoosejs.com/docs/guide.html)
-* [mongoosse api docs](http://mongoosejs.com/docs/api.html)
+* [mongoose guide](http://mongoosejs.com/docs/guide.html)
+* [mongoose api docs](http://mongoosejs.com/docs/api.html)
 
 ## Feature Tasks  
 #### Second Model
-In the model/ directory create a second Model for a resource using Mongoose (that is different from the class lecture resource). The model must include 4 properties, two of which should be required. Design your model so that it can have a relationship to your first model you will design create tomorrow. It should be the `Many` in a `One to Many` model relationship.
+In the model/ directory create a second Model for a resource using Mongoose (that is different from the class lecture resource). The model must include 4 properties, two of which should be required. It should be the `Many` in a `One to Many` model relationship.
 
 #### Server Endpoints
 Create the following routes for performing CRUD opperations on your resourcee
@@ -26,7 +26,7 @@ Create the following routes for performing CRUD opperations on your resourcee
 * `DELETE /<resource-name>/:id` 
   * the route should delete a note with the given id 
   * on success this should return a 204 status code with no content in the body
-  * on failure due to a resouce with that id not existing respond with a 404 status code
+  * on failure due to a resource with that id not existing respond with a 404 status code
 
 ## Tests
 * Write tests to ensure the `/resource-name` endpoint responds as described for each condition below:
@@ -35,7 +35,7 @@ Create the following routes for performing CRUD opperations on your resourcee
 * DELETE should test for 204 and 404
 
 ## Documentation
-In the README.md write documention for starting your server and makeing requests to each endpoint it provides. The documentaion should describe how the server would respond to valid and invalid requests.
+In the README.md write documention for starting your server and making requests to each endpoint it provides. The documentaion should describe how the server would respond to valid and invalid requests.
 
 ## Bonus 1pt
-* Create and test a Put route for your second resource
+* Create and test a PUT route for your second resource
